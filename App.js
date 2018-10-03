@@ -7,12 +7,15 @@
  */
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
-import SignIn from './src/feature/signin/SignIn'
+// import {Platform, StyleSheet, Text, View} from 'react-native';
+
+import SignIn from './src/feature/signin/SignIn';
+import Drawer from './src/feature/app/layout/Drawer';
 export default class App extends Component {
   render() {
     return (
-      <SignIn />
+      // <SignIn />
+      <Drawer />
     );
   }
 }
